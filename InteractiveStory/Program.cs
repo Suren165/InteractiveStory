@@ -6,6 +6,7 @@ Console.WriteLine("Du ska välja mellan 2 dörrar välj mellan vänster dörr el
 choice = Console.ReadLine();
 choice = choice.ToLower();
 
+
 if (choice == "vänster dörr")
 {
     Console.WriteLine("Du går igenom vänster dörr du ser att det är en lång korridor");
