@@ -19,6 +19,7 @@ if (choice == "vänster dörr")
     if (val == "ventil 1")
     {
         Console.WriteLine("bra val du har flytt från rummet grattis!");
+        Console.WriteLine("Tryck enter för att avsluta spelet");
     }
     else if (val=="ventil 2")
     {
@@ -33,6 +34,7 @@ else if (choice == "höger dörr")
     Console.WriteLine(" Du går igenom höger dörr du ser att det är en lång korridor");
     Console.WriteLine(" Du går igenom korridoren det låter som ett monster ");
     Console.WriteLine(" Det nya rummet har ett monster som har dödat dig ");
+    Console.WriteLine("Tryck enter för att stänga av spelet");
     choice = Console.ReadLine();
     choice = choice.ToLower();
 
